@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.Set;
 
 @Entity
-@Data
+@Data //automatically generates getters and setters for the private fields
 public class Lapik {
 
     public enum Team {
